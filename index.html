@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aggarwal Classes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="shortcut icon" href="./image/AC logo light.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <img id="nav-icon" src="./image/AC logo light.png" alt="">
+    Aggarwal <span>Classes</span>
+  </div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#why-us">Why Us</a></li>
+    <li><a href="#testimonials">Results</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Enrol Now</a>
+  <!-- Hamburger button — hidden on desktop, shown on mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <div class="hero-badge">📍 Kapashera, New Delhi · Offline Coaching</div>
+    <h1>Build Your <em>Academic</em><br/>Foundation Right</h1>
+    <p class="hero-sub">
+      Personalised classroom coaching for Class 6–12 students. Expert faculty, proven results, and a learning environment designed for excellence.
+    </p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Enrol for Free Demo</a>
+      <a href="#courses" class="btn-outline">View Courses</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card">
+      <div class="stat-row">
+        <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Years Experience</div></div>
+        <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Students Taught</div></div>
+        <div class="stat"><div class="stat-num">95%</div><div class="stat-label">Pass Rate</div></div>
+      </div>
+      <div class="divider-gold"></div>
+      <div class="course-chips">
+        <span class="chip gold">Class 6–8 · All Subjects</span>
+        <span class="chip">Class 9–10 · Maths</span>
+        <span class="chip">Class 9–10 · Science</span>
+        <span class="chip">Class 11–12 · Chemistry</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar-wrapper">
+  <div class="trust-bar">
+    <div class="group">
+      <div class="trust-item"><span class="trust-icon">✅</span> Experienced Faculty</div>
+      <div class="trust-item"><span class="trust-icon">📚</span> CBSE / ICSE Curriculum</div>
+      <div class="trust-item"><span class="trust-icon">🏫</span> Offline Classroom Batches</div>
+      <div class="trust-item"><span class="trust-icon">📝</span> Regular Tests & Feedback</div>
+      <div class="trust-item"><span class="trust-icon">🤝</span> Parent Progress Updates</div>
+    </div>
+    <div aria-hidden class="group">
+      <div class="trust-item"><span class="trust-icon">✅</span> Experienced Faculty</div>
+      <div class="trust-item"><span class="trust-icon">📚</span> CBSE / ICSE Curriculum</div>
+      <div class="trust-item"><span class="trust-icon">🏫</span> Offline Classroom Batches</div>
+      <div class="trust-item"><span class="trust-icon">📝</span> Regular Tests & Feedback</div>
+      <div class="trust-item"><span class="trust-icon">🤝</span> Parent Progress Updates</div>
+    </div>
+  </div>
+</div>
+
+<!-- COURSES -->
+<section class="courses-section" id="courses">
+  <div class="section-label">Our Programmes</div>
+  <h2 class="section-title">Courses Tailored for<br/>Every Stage of School</h2>
+  <p class="section-sub">From foundational learning to board exam preparation — we guide students at every level with structured, classroom-first coaching.</p>
+  <div class="courses-grid">
+
+    <div class="course-card">
+      <span class="course-level">Class 6 – 8</span>
+      <h3>Junior Foundation</h3>
+      <p>Strong conceptual grounding across all core subjects. We make learning engaging and ensure no student is left behind.</p>
+      <div class="subjects-list">
+        <span class="subject-tag">Mathematics</span>
+        <span class="subject-tag">Science</span>
+        <span class="subject-tag">English</span>
+        <span class="subject-tag">Hindi</span>
+        <span class="subject-tag">Social Science</span>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-level">Class 9 – 10</span>
+      <h3>Board Prep Excellence</h3>
+      <p>Focused coaching in Maths and Science to help students excel in board exams with strong fundamentals and exam strategy.</p>
+      <div class="subjects-list">
+        <span class="subject-tag">Mathematics</span>
+        <span class="subject-tag">Science</span>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-level">Class 11 – 12</span>
+      <h3>Senior Science Mastery</h3>
+      <p>In-depth Chemistry coaching for senior secondary students preparing for board exams and competitive entrance tests.</p>
+      <div class="subjects-list">
+        <span class="subject-tag">Chemistry</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-section" id="why-us">
+  <div class="why-text">
+    <div class="section-label" style="color:var(--gold)">Why Aggarwal Classes</div>
+    <h2 class="section-title">Teaching That Goes<br/>Beyond the Textbook</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,0.6)">We believe every student has the potential to excel. Our classroom environment is designed to build both knowledge and confidence.</p>
+    <div class="why-list">
+      <div class="why-item">
+        <div class="why-icon">🎓</div>
+        <div class="why-item-text">
+          <h4>Expert Faculty</h4>
+          <p>Qualified and experienced teachers who understand the local school curriculum inside out.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">📊</div>
+        <div class="why-item-text">
+          <h4>Regular Assessments</h4>
+          <p>Weekly tests and monthly report cards keep students and parents informed of progress.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🏫</div>
+        <div class="why-item-text">
+          <h4>Small Batch Sizes</h4>
+          <p>Limited seats per batch ensures every student gets personalised attention from the teacher.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">📍</div>
+        <div class="why-item-text">
+          <h4>Conveniently Located</h4>
+          <p>Centrally situated in Kapashera — easily accessible for students across the neighbourhood.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="why-visual">
+    <div class="why-card"><div class="why-card-num">10+</div><div class="why-card-label">Years of Teaching</div></div>
+    <div class="why-card"><div class="why-card-num">500+</div><div class="why-card-label">Students Enrolled</div></div>
+    <div class="why-card"><div class="why-card-num">3</div><div class="why-card-label">Course Levels</div></div>
+    <div class="why-card"><div class="why-card-num">95%</div><div class="why-card-label">Student Pass Rate</div></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="testimonials">
+  <div class="section-label">Student & Parent Reviews</div>
+  <h2 class="section-title">Words from Our<br/>Happy Families</h2>
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <div class="quote-mark">"</div>
+      <p>My daughter was struggling in Science before joining Aggarwal Classes. Within 3 months her marks improved dramatically. The teachers are very patient and thorough.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">R</div>
+        <div><div class="reviewer-name">Rekha Sharma</div><div class="reviewer-sub">Parent of Class 10 student</div></div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <div class="quote-mark">"</div>
+      <p>I used to fear Maths. After joining here, I not only cleared my boards but actually started enjoying problem-solving. The batch size is small so sir gives attention to everyone.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">A</div>
+        <div><div class="reviewer-name">Aditya Verma</div><div class="reviewer-sub">Class 10 Student</div></div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <div class="quote-mark">"</div>
+      <p>Best Chemistry coaching in Kapashera. My son scored 88 in Chemistry in Class 12 boards. The notes and practice papers are excellent. Highly recommend to all parents.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">S</div>
+        <div><div class="reviewer-name">Suresh Gupta</div><div class="reviewer-sub">Parent of Class 12 student</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LOCATION + CONTACT -->
+<section class="location-section" id="contact">
+  <div class="location-box">
+    <h3>📍 Find Us in Kapashera</h3>
+    <div class="info-row">
+      <span class="info-icon">🏫</span>
+      <div>
+        <div class="info-label">Address</div>
+        <div class="info-val">H.no. 70, Floor 1, Street no. 4,<br/>Near veer public school, Kapashera</div>
+      </div>
+    </div>
+    <div class="info-row">
+      <span class="info-icon">📞</span>
+      <div>
+        <div class="info-label">Phone</div>
+        <div class="info-val">+91 98XXX XXXXX</div>
+      </div>
+    </div>
+    <div class="info-row">
+      <span class="info-icon">🕐</span>
+      <div>
+        <div class="info-label">Batch Timings</div>
+        <div class="info-val">Morning: 7:00 AM – 9:00 AM<br/>Evening: 5:00 PM – 8:00 PM</div>
+      </div>
+    </div>
+    <div class="info-row">
+      <span class="info-icon">📅</span>
+      <div>
+        <div class="info-label">Days Open</div>
+        <div class="info-val">Monday to Saturday</div>
+      </div>
+    </div>
+    <div class="map-placeholder">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213252.0926450788!2d76.77074299453125!3d28.524270800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b79511b4bdf%3A0x1b44ff9f73761f96!2sAggarwal%20classes!5e1!3m2!1sen!2sin!4v1774065650235!5m2!1sen!2sin"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="enroll-box">
+    <h3>Book a Free Demo Class</h3>
+    <p>Fill in your details and we'll get back to you within 24 hours to schedule your free trial session.</p>
+    <div class="form-group"><input type="text" placeholder="Student's Full Name" autocomplete="off" required/></div>
+    <div class="form-group"><input type="text" placeholder="Parent's Name" autocomplete="off" required/></div>
+    <div class="form-group"><input type="tel" placeholder="Mobile Number" autocomplete="off" required/></div>
+    <div class="form-group">
+      <select>
+        <option value="" disabled selected>Select Class</option>
+        <option>Class 6</option>
+        <option>Class 7</option>
+        <option>Class 8</option>
+        <option>Class 9</option>
+        <option>Class 10</option>
+        <option>Class 11</option>
+        <option>Class 12</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <select>
+        <option value="" disabled selected>Subject of Interest</option>
+        <option>All Subjects (Class 6–8)</option>
+        <option>Mathematics</option>
+        <option>Science</option>
+        <option>Chemistry</option>
+      </select>
+    </div>
+    <button class="btn-primary" style="width:100%; margin-top:0.5rem;">Book My Free Demo →</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Aggarwal <span>Classes</span></div>
+  <div>© 2026 Aggarwal Classes · Kapashera, New Delhi · Offline Coaching Centre</div>
+  <div>Made with ❤️ for local students</div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    toggle.classList.toggle('open');
+  });
+
+  // Close menu when a link is clicked
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      toggle.classList.remove('open');
+    });
+  });
+</script>
+
+</body>
+</html>
